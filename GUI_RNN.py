@@ -71,7 +71,7 @@ canvas.pack()
 frame_main = tk.Frame(root, bg='white')
 frame_main.place(relx=0, rely=0, relwidth=1, relheight=1)
 
-label_name = tk.Label(frame_main, font = ("Courier", 24, 'bold'), text = "Demo RNN - Nhom 9", fg = 'red', bg='white')
+label_name = tk.Label(frame_main, font = ("Courier", 24, 'bold'), text = "", fg = 'red', bg='white')
 label_name.place(relx=0.1, rely=0.03)
 
 load_image = Image.open("google.png")
